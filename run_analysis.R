@@ -1,5 +1,5 @@
 #set working directory
-
+ 
 setwd("c:\\projects\\Coursera\\Course3\\Week 4 Assignment\\UCI HAR Dataset")
 
 #load the three training files into data frames
@@ -32,10 +32,6 @@ Y       <- rbind(Y_test, Y_train)
 
 names(X) <- features$featureLabel
 
-#merge the activity label to Y
-#This is satisfies Point 3 of the instructions:
-#   'Uses descriptive activity names to name the activities in the data set'
-Y <-       merge(Y, activity_labels, by="activityId" )
 
 
 #To satisfy Point 2 of the instructions:
@@ -52,14 +48,18 @@ X <- X[, featuresrow]
 # 'Merges the training and the test sets to create one data set'
 
 
-allcombine<- cbind(subject,X,Y$activityLabel)
+allcombine<- cbind(subject,X,Y)
+
+#merge the activity label to Y
+#This is satisfies Point 3 of the instructions:
+#   'Uses descriptive activity names to name the activities in the data set'
+# remove activityid column
+allcombine <- merge(allcombine, activity_labels, by="activityId" )
+allcombine[1] <- NULL
 
 #Finally to Satisfy Point 5 of the instructions
 #create a new dataset with the average for each variable
 #for each activity and each subject
-
-library(data.table)
-setnames(allcombine, "Y$activityLabel", "activityLabel")
 
 #Grouping by subjectId, activityLabel, 
 #Calculate the averages for all the otehr columns
