@@ -1,93 +1,96 @@
 
 ##DATA DICTIONARY - tidydata.txt
 
-*subjectId
+#subjectId
 
 Unique Identifier of the Subject of the Experiment 
 Takes Values 1-30
 
-*activityLabel
+#activityLabel
 Describes the Activity the Subject was undertaking when measured
 Takes Values:
-LAYING
-SITTING
-STANDING
-WALKING
-WALKING_DOWNSTAIRS
-WALKING_UPSTAIRS
+* LAYING
+* SITTING
+* STANDING
+* WALKING
+* WALKING_DOWNSTAIRS
+* WALKING_UPSTAIRS
 
-*tBodyAcc-mean()-X	mean value of this measurement
-*tBodyAcc-mean()-Y	mean value of this measurement
-*tBodyAcc-mean()-Z	mean value of this measurement
-*tBodyAcc-std()-X	mean value of this measurement
-*tBodyAcc-std()-Y	mean value of this measurement
-*tBodyAcc-std()-Z	mean value of this measurement
-*tGravityAcc-mean()-X	mean value of this measurement
-*tGravityAcc-mean()-Y	mean value of this measurement
-*tGravityAcc-mean()-Z	mean value of this measurement
-*tGravityAcc-std()-X	mean value of this measurement
-*tGravityAcc-std()-Y	mean value of this measurement
-*tGravityAcc-std()-Z	mean value of this measurement
-*tBodyAccJerk-mean()-X	mean value of this measurement
-*tBodyAccJerk-mean()-Y	mean value of this measurement
-*tBodyAccJerk-mean()-Z	mean value of this measurement
-*tBodyAccJerk-std()-X	mean value of this measurement
-*tBodyAccJerk-std()-Y	mean value of this measurement
-*tBodyAccJerk-std()-Z	mean value of this measurement
-*tBodyGyro-mean()-X	mean value of this measurement
-*tBodyGyro-mean()-Y	mean value of this measurement
-*tBodyGyro-mean()-Z	mean value of this measurement
-*tBodyGyro-std()-X	mean value of this measurement
-*tBodyGyro-std()-Y	mean value of this measurement
-*tBodyGyro-std()-Z	mean value of this measurement
-*tBodyGyroJerk-mean()-X	mean value of this measurement
-*tBodyGyroJerk-mean()-Y	mean value of this measurement
-*tBodyGyroJerk-mean()-Z	mean value of this measurement
-*tBodyGyroJerk-std()-X	mean value of this measurement
-*tBodyGyroJerk-std()-Y	mean value of this measurement
-*tBodyGyroJerk-std()-Z	mean value of this measurement
-*tBodyAccMag-mean()	mean value of this measurement
-*tBodyAccMag-std()	mean value of this measurement
-*tGravityAccMag-mean()	mean value of this measurement
-*tGravityAccMag-std()	mean value of this measurement
-*tBodyAccJerkMag-mean()	mean value of this measurement
-*tBodyAccJerkMag-std()	mean value of this measurement
-*tBodyGyroMag-mean()	mean value of this measurement
-*tBodyGyroMag-std()	mean value of this measurement
-*tBodyGyroJerkMag-mean()	mean value of this measurement
-*tBodyGyroJerkMag-std()	mean value of this measurement
-*fBodyAcc-mean()-X	mean value of this measurement
-*fBodyAcc-mean()-Y	mean value of this measurement
-*fBodyAcc-mean()-Z	mean value of this measurement
-*fBodyAcc-std()-X	mean value of this measurement
-*fBodyAcc-std()-Y	mean value of this measurement
-*fBodyAcc-std()-Z	mean value of this measurement
-*fBodyAccJerk-mean()-X	mean value of this measurement
-*fBodyAccJerk-mean()-Y	mean value of this measurement
-*fBodyAccJerk-mean()-Z	mean value of this measurement
-*fBodyAccJerk-std()-X	mean value of this measurement
-*fBodyAccJerk-std()-Y	mean value of this measurement
-*fBodyAccJerk-std()-Z	mean value of this measurement
-*fBodyGyro-mean()-X	mean value of this measurement
-*fBodyGyro-mean()-Y	mean value of this measurement
-*fBodyGyro-mean()-Z	mean value of this measurement
-*fBodyGyro-std()-X	mean value of this measurement
-*fBodyGyro-std()-Y	mean value of this measurement
-*fBodyGyro-std()-Z	mean value of this measurement
-*fBodyAccMag-mean()	mean value of this measurement
-*fBodyAccMag-std()	mean value of this measurement
-*fBodyBodyAccJerkMag-mean()	mean value of this measurement
-*fBodyBodyAccJerkMag-std()	mean value of this measurement
-*fBodyBodyGyroMag-mean()	mean value of this measurement
-*fBodyBodyGyroMag-std()	mean value of this measurement
-*fBodyBodyGyroJerkMag-mean()	mean value of this measurement
-*fBodyBodyGyroJerkMag-std()	mean value of this measurement
-*activityLabel	mean value of this measurement
+Then the Mean Values for the folowing measurements:
+#tBodyAcc-mean()-X	
+#tBodyAcc-mean()-Y	
+#tBodyAcc-mean()-Z	
+#tBodyAcc-std()-X	
+#tBodyAcc-std()-Y	
+#tBodyAcc-std()-Z	
+#tGravityAcc-mean()-X	
+#tGravityAcc-mean()-Y	
+#tGravityAcc-mean()-Z	
+#tGravityAcc-std()-X	
+#tGravityAcc-std()-Y	
+#tGravityAcc-std()-Z	
+#tBodyAccJerk-mean()-X	
+#tBodyAccJerk-mean()-Y	
+#tBodyAccJerk-mean()-Z	
+#tBodyAccJerk-std()-X	
+#tBodyAccJerk-std()-Y	
+#tBodyAccJerk-std()-Z	
+#tBodyGyro-mean()-X	
+#tBodyGyro-mean()-Y	
+#tBodyGyro-mean()-Z	
+#tBodyGyro-std()-X	
+#tBodyGyro-std()-Y	
+#tBodyGyro-std()-Z	
+#tBodyGyroJerk-mean()-X	
+#tBodyGyroJerk-mean()-Y	
+#tBodyGyroJerk-mean()-Z	
+#tBodyGyroJerk-std()-X	
+#tBodyGyroJerk-std()-Y	
+#tBodyGyroJerk-std()-Z	
+#tBodyAccMag-mean()	
+#tBodyAccMag-std()	
+#tGravityAccMag-mean()	
+#tGravityAccMag-std()	
+#tBodyAccJerkMag-mean()	
+#tBodyAccJerkMag-std()	
+#tBodyGyroMag-mean()	
+#tBodyGyroMag-std()	
+#tBodyGyroJerkMag-mean()	
+#tBodyGyroJerkMag-std()	
+#fBodyAcc-mean()-X	
+#fBodyAcc-mean()-Y	
+#fBodyAcc-mean()-Z	
+#fBodyAcc-std()-X	
+#fBodyAcc-std()-Y	
+#fBodyAcc-std()-Z	
+#fBodyAccJerk-mean()-X	
+#fBodyAccJerk-mean()-Y	
+#fBodyAccJerk-mean()-Z	
+#fBodyAccJerk-std()-X	
+#BodyAccJerk-std()-Y	
+#fBodyAccJerk-std()-Z	
+#fBodyGyro-mean()-X	
+#fBodyGyro-mean()-Y	
+#fBodyGyro-mean()-Z	
+#fBodyGyro-std()-X	
+#fBodyGyro-std()-Y	
+#fBodyGyro-std()-Z	
+#fBodyAccMag-mean()	
+#fBodyAccMag-std()	
+#fBodyBodyAccJerkMag-mean()	
+#fBodyBodyAccJerkMag-std()	
+#fBodyBodyGyroMag-mean()	
+#fBodyBodyGyroMag-std()	
+#fBodyBodyGyroJerkMag-mean()	
+#fBodyBodyGyroJerkMag-std()	
+
+
+
 
 
 ##The information below is all taken directly from the features_info.txt that was provided forthe assignemtn
 
-Feature Selection 
+#Feature Selection 
 =================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
